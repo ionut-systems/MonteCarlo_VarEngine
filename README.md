@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <p align="center">
-  <img src="carlo_var.png" alt="Monte Carlo VaR Engine - Aperçu de l'interface et des rapports" width="100%">
+  <img src="images/carlo_var.png" alt="Monte Carlo VaR Engine - Aperçu de l'interface et des rapports" width="100%">
 </p>
 
 ## 🚀 Vue d'ensemble
