@@ -1,0 +1,18 @@
+# Fichiers de build et exécutables PyInstaller
+build/
+dist/
+*.spec
+*.pkg
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Fichiers multimédias lourds
+*.mp4
+*.avi
+*.mov
+
+# Fichiers système
+.DS_Store
+Thumbs.db
