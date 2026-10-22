@@ -4,6 +4,10 @@
 [![Tkinter](https://img.shields.io/badge/GUI-Tkinter-lightgrey.svg)](https://docs.python.org/3/library/tkinter.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+<p align="center">
+  <img src="Cover_Monte_carlo_Var.png" alt="Monte Carlo VaR Engine - Aperçu de l'interface et des rapports" width="100%">
+</p>
+
 ## 🚀 Vue d'ensemble
 **Monte Carlo VaR Engine** est une application de bureau de niveau institutionnel conçue pour les analystes quantitatifs, les gestionnaires de risques et les traders professionnels. Elle combine des calculs mathématiques stochastiques ultra-rapides (**cœur binaire en C++**) avec une interface graphique asynchrone moderne et ergonomique (**frontend Python/Tkinter**).
 
