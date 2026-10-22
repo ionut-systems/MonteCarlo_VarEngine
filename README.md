@@ -1,5 +1,4 @@
 # 📈 Monte Carlo VaR Engine | Application de Bureau Professionnelle d'Analyse des Risques Quantitatifs
-
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C++-Standard%20Modern-orange.svg)](https://isocpp.org/)
 [![Tkinter](https://img.shields.io/badge/GUI-Tkinter-lightgrey.svg)](https://docs.python.org/3/library/tkinter.html)
@@ -9,6 +8,13 @@
 **Monte Carlo VaR Engine** est une application de bureau de niveau institutionnel conçue pour les analystes quantitatifs, les gestionnaires de risques et les traders professionnels. Elle combine des calculs mathématiques stochastiques ultra-rapides (**cœur binaire en C++**) avec une interface graphique asynchrone moderne et ergonomique (**frontend Python/Tkinter**).
 
 Pensée pour un déploiement opérationnel immédiat, l'application calcule la **Value at Risk (VaR)** via des simulations avancées de Monte Carlo, normalise dynamiquement les horizons temporels, trace les trajectoires de risque en temps réel et génère instantanément des rapports exécutifs au format **Excel (`openpyxl`)** et **PDF (`reportlab`)**.
+
+
+#Vidéo explicative du logiciel en fonctionnement:
+
+<p align="center">
+  <video src="Monte_carlo_var.mp4" width="100%" controls autoplay muted loop></video>
+</p>
 
 ---
 
