@@ -1,14 +1,25 @@
-# Beezeweb - Monte Carlo VaR Engine (Value-at-Risk Simulator)
+# 📈 Monte Carlo VaR Engine | Application de Bureau Professionnelle d'Analyse des Risques Quantitatifs
 
-Moteur de gestion des risques financiers permettant d'estimer la **Value-at-Risk (VaR)** d'un portefeuille d'investissement par simulations stochastiques de **Monte Carlo**.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![C++](https://img.shields.io/badge/C++-Standard%20Modern-orange.svg)](https://isocpp.org/)
+[![Tkinter](https://img.shields.io/badge/GUI-Tkinter-lightgrey.svg)](https://docs.python.org/3/library/tkinter.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Architecture & Fonctionnalités
-* **Génération Stochastique (Mouvement Brownien Géométrique) :** Simulation de milliers de trajectoires de prix aléatoires basées sur la dérive (*drift*) et la volatilité historique de l'actif.
-* **Calcul de la Value-at-Risk (95% / 99%) :** Estimation statistique de la perte maximale potentielle d'un capital sur un horizon temporel donné.
-* **Conception Orientée Institutionnelle :** Moteur compilé robuste, pensé pour l'audit de risque, le stress-testing de portefeuille et le contrôle d'exposition (Actions, Matières Premières, Devises).
+## 🚀 Vue d'ensemble
+**Monte Carlo VaR Engine** est une application de bureau de niveau institutionnel conçue pour les analystes quantitatifs, les gestionnaires de risques et les traders professionnels. Elle combine des calculs mathématiques stochastiques ultra-rapides (**cœur binaire en C++**) avec une interface graphique asynchrone moderne et ergonomique (**frontend Python/Tkinter**).
 
-## Exécution
-Exécutable autonome sous Windows ou appelable en sous-processus via un cockpit de gestion de portefeuille.
+Pensée pour un déploiement opérationnel immédiat, l'application calcule la **Value at Risk (VaR)** via des simulations avancées de Monte Carlo, normalise dynamiquement les horizons temporels, trace les trajectoires de risque en temps réel et génère instantanément des rapports exécutifs au format **Excel (`openpyxl`)** et **PDF (`reportlab`)**.
 
 ---
-*Développé par **Beezeweb** — Ingénierie Quantitative & Automatisation Logicielle.*
+
+## 🛠️ Architecture & Stack Technique
+
+```text
+┌─────────────────────────┐          Subprocess CLI         ┌─────────────────────────┐
+│   Python/Tkinter GUI    │ ──────────────────────────────> │    MonteCarloEngine.exe  │
+│   (Multithreaded UI)    │ <────────────────────────────── │   (High-Speed C++ Core) │
+└─────────────────────────┘      Stochastic P&L Output      └─────────────────────────┘
+             │
+             ├─> Matplotlib (Rendu de la distribution des risques en temps réel)
+             ├─> Pandas & Openpyxl (États financiers automatisés sous Excel)
+             └─> ReportLab (Génération de rapports PDF exécutifs)
